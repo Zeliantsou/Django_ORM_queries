@@ -1,0 +1,1368 @@
+[
+    {
+        "model": "book.book",
+        "pk": 1,
+        "fields": {
+            "name": "trick woolen tractor",
+            "publisher": 3,
+            "publish_date": "2016-03-04",
+            "price": 178.33,
+            "authors": [
+                1,
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 2,
+        "fields": {
+            "name": "point plaster nic",
+            "publisher": 5,
+            "publish_date": "2014-06-19",
+            "price": 120.08,
+            "authors": [
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 3,
+        "fields": {
+            "name": "airplane dedication criminal",
+            "publisher": 1,
+            "publish_date": "2016-08-23",
+            "price": 284.38,
+            "authors": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 4,
+        "fields": {
+            "name": "industry sweatshop enemy",
+            "publisher": 4,
+            "publish_date": "2021-01-31",
+            "price": 113.22,
+            "authors": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 5,
+        "fields": {
+            "name": "offer honey discussion",
+            "publisher": 5,
+            "publish_date": "2016-06-22",
+            "price": 432.42,
+            "authors": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 6,
+        "fields": {
+            "name": "hub bun lily",
+            "publisher": 3,
+            "publish_date": "2019-06-21",
+            "price": 165.65,
+            "authors": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 7,
+        "fields": {
+            "name": "trunk product hoe",
+            "publisher": 2,
+            "publish_date": "2014-05-02",
+            "price": 397.95,
+            "authors": [
+                8,
+                9,
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 8,
+        "fields": {
+            "name": "waitress parallelogram pedestrian",
+            "publisher": 5,
+            "publish_date": "2019-10-08",
+            "price": 351.54,
+            "authors": [
+                8,
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 9,
+        "fields": {
+            "name": "help Internet lunchroom",
+            "publisher": 2,
+            "publish_date": "2014-01-14",
+            "price": 384.83,
+            "authors": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 10,
+        "fields": {
+            "name": "board pig typhoon",
+            "publisher": 2,
+            "publish_date": "2015-11-21",
+            "price": 57.81,
+            "authors": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 11,
+        "fields": {
+            "name": "bomber town pantry",
+            "publisher": 5,
+            "publish_date": "2015-11-23",
+            "price": 222.66,
+            "authors": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 12,
+        "fields": {
+            "name": "promotion hamburger suit",
+            "publisher": 4,
+            "publish_date": "2017-03-27",
+            "price": 181.39,
+            "authors": [
+                2,
+                10,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 13,
+        "fields": {
+            "name": "Maria swamp hope",
+            "publisher": 3,
+            "publish_date": "2020-09-21",
+            "price": 433.02,
+            "authors": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 14,
+        "fields": {
+            "name": "position lute gore-tex",
+            "publisher": 4,
+            "publish_date": "2019-01-18",
+            "price": 401.05,
+            "authors": [
+                2,
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 15,
+        "fields": {
+            "name": "screw fire diving",
+            "publisher": 2,
+            "publish_date": "2019-06-27",
+            "price": 273.92,
+            "authors": [
+                10,
+                3,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 16,
+        "fields": {
+            "name": "hot creek jelly",
+            "publisher": 1,
+            "publish_date": "2015-06-30",
+            "price": 255.01,
+            "authors": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 17,
+        "fields": {
+            "name": "clock trouble Sphynx",
+            "publisher": 3,
+            "publish_date": "2013-11-24",
+            "price": 442.99,
+            "authors": [
+                1,
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 18,
+        "fields": {
+            "name": "battery sardine crowd",
+            "publisher": 3,
+            "publish_date": "2013-02-05",
+            "price": 367.43,
+            "authors": [
+                8,
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 19,
+        "fields": {
+            "name": "editor course gym",
+            "publisher": 4,
+            "publish_date": "2020-12-05",
+            "price": 411.48,
+            "authors": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 20,
+        "fields": {
+            "name": "ring composer humidity",
+            "publisher": 3,
+            "publish_date": "2021-07-18",
+            "price": 484.84,
+            "authors": [
+                9,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 21,
+        "fields": {
+            "name": "singer surname distance",
+            "publisher": 5,
+            "publish_date": "2020-09-22",
+            "price": 335.37,
+            "authors": [
+                8,
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 22,
+        "fields": {
+            "name": "parade trousers pair",
+            "publisher": 1,
+            "publish_date": "2012-04-30",
+            "price": 218.41,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 23,
+        "fields": {
+            "name": "rabbit viola cause",
+            "publisher": 4,
+            "publish_date": "2019-05-12",
+            "price": 386.22,
+            "authors": [
+                10,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 24,
+        "fields": {
+            "name": "priest map gun",
+            "publisher": 1,
+            "publish_date": "2022-03-15",
+            "price": 299.99,
+            "authors": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 25,
+        "fields": {
+            "name": "Argentina radio rest",
+            "publisher": 2,
+            "publish_date": "2014-11-28",
+            "price": 8.22,
+            "authors": [
+                9,
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 26,
+        "fields": {
+            "name": "trombone banjo noise",
+            "publisher": 4,
+            "publish_date": "2020-02-23",
+            "price": 12.13,
+            "authors": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 27,
+        "fields": {
+            "name": "story light playroom",
+            "publisher": 5,
+            "publish_date": "2017-11-22",
+            "price": 430.45,
+            "authors": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 28,
+        "fields": {
+            "name": "trigonometry laugh twist",
+            "publisher": 3,
+            "publish_date": "2016-10-15",
+            "price": 153.54,
+            "authors": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 29,
+        "fields": {
+            "name": "emery February divorced",
+            "publisher": 1,
+            "publish_date": "2012-03-23",
+            "price": 201.42,
+            "authors": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 30,
+        "fields": {
+            "name": "girdle processing age",
+            "publisher": 5,
+            "publish_date": "2021-11-20",
+            "price": 486.47,
+            "authors": [
+                8,
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 31,
+        "fields": {
+            "name": "quiver bone kilogram",
+            "publisher": 2,
+            "publish_date": "2019-12-11",
+            "price": 215.26,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 32,
+        "fields": {
+            "name": "taxi Linda print",
+            "publisher": 5,
+            "publish_date": "2019-04-25",
+            "price": 45.02,
+            "authors": [
+                8,
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 33,
+        "fields": {
+            "name": "hyacinth cousin commission",
+            "publisher": 3,
+            "publish_date": "2021-02-14",
+            "price": 148.44,
+            "authors": [
+                9,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 34,
+        "fields": {
+            "name": "jeans stamp unit",
+            "publisher": 5,
+            "publish_date": "2019-04-05",
+            "price": 27.58,
+            "authors": [
+                8,
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 35,
+        "fields": {
+            "name": "step-sister gas viscose",
+            "publisher": 4,
+            "publish_date": "2013-11-15",
+            "price": 193.56,
+            "authors": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 36,
+        "fields": {
+            "name": "Anthony unit summer",
+            "publisher": 1,
+            "publish_date": "2021-06-18",
+            "price": 100.57,
+            "authors": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 37,
+        "fields": {
+            "name": "copy mouth windshield",
+            "publisher": 3,
+            "publish_date": "2020-03-15",
+            "price": 103.59,
+            "authors": [
+                4,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 38,
+        "fields": {
+            "name": "brick poison glove",
+            "publisher": 5,
+            "publish_date": "2016-10-25",
+            "price": 141.98,
+            "authors": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 39,
+        "fields": {
+            "name": "astronomy comics Sandra",
+            "publisher": 5,
+            "publish_date": "2021-07-21",
+            "price": 461.59,
+            "authors": [
+                1,
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 40,
+        "fields": {
+            "name": "hip raincoat peace",
+            "publisher": 5,
+            "publish_date": "2016-01-25",
+            "price": 52.1,
+            "authors": [
+                8,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 41,
+        "fields": {
+            "name": "iron confirmation buzzard",
+            "publisher": 1,
+            "publish_date": "2018-10-21",
+            "price": 226.53,
+            "authors": [
+                10,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 42,
+        "fields": {
+            "name": "Leo sideboard Michael",
+            "publisher": 3,
+            "publish_date": "2012-12-09",
+            "price": 372.46,
+            "authors": [
+                3,
+                4,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 43,
+        "fields": {
+            "name": "gear salary clam",
+            "publisher": 4,
+            "publish_date": "2019-02-11",
+            "price": 283.25,
+            "authors": [
+                1,
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 44,
+        "fields": {
+            "name": "snake record step-mother",
+            "publisher": 1,
+            "publish_date": "2017-07-20",
+            "price": 9.75,
+            "authors": [
+                9,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 45,
+        "fields": {
+            "name": "slippers magazine chord",
+            "publisher": 4,
+            "publish_date": "2019-12-18",
+            "price": 308.19,
+            "authors": [
+                1,
+                10,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 46,
+        "fields": {
+            "name": "pheasant Mexico environment",
+            "publisher": 1,
+            "publish_date": "2021-11-08",
+            "price": 207.56,
+            "authors": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 47,
+        "fields": {
+            "name": "collision kamikaze larch",
+            "publisher": 1,
+            "publish_date": "2015-04-08",
+            "price": 156.59,
+            "authors": [
+                9,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 48,
+        "fields": {
+            "name": "beauty pedestrian owner",
+            "publisher": 1,
+            "publish_date": "2017-10-30",
+            "price": 284.49,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 49,
+        "fields": {
+            "name": "eyeliner possibility pine",
+            "publisher": 1,
+            "publish_date": "2017-07-09",
+            "price": 309.56,
+            "authors": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 50,
+        "fields": {
+            "name": "Betty step-brother sardine",
+            "publisher": 1,
+            "publish_date": "2016-08-25",
+            "price": 145.49,
+            "authors": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 51,
+        "fields": {
+            "name": "penalty database ptarmigan",
+            "publisher": 2,
+            "publish_date": "2014-04-07",
+            "price": 323.38,
+            "authors": [
+                10,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 52,
+        "fields": {
+            "name": "copyright Yugoslavian semicolon",
+            "publisher": 3,
+            "publish_date": "2013-01-06",
+            "price": 262.12,
+            "authors": [
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 53,
+        "fields": {
+            "name": "milkshake suit hardhat",
+            "publisher": 4,
+            "publish_date": "2017-01-19",
+            "price": 468.36,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 54,
+        "fields": {
+            "name": "flight work stool",
+            "publisher": 5,
+            "publish_date": "2013-03-01",
+            "price": 10.97,
+            "authors": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 55,
+        "fields": {
+            "name": "aluminium halibut ball",
+            "publisher": 5,
+            "publish_date": "2013-05-31",
+            "price": 22.43,
+            "authors": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 56,
+        "fields": {
+            "name": "surgeon blow lyre",
+            "publisher": 4,
+            "publish_date": "2012-06-18",
+            "price": 474.26,
+            "authors": [
+                9,
+                5,
+                1
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 57,
+        "fields": {
+            "name": "turnover vault roadway",
+            "publisher": 3,
+            "publish_date": "2018-03-09",
+            "price": 298.25,
+            "authors": [
+                8,
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 58,
+        "fields": {
+            "name": "baby snow fisherman",
+            "publisher": 1,
+            "publish_date": "2017-08-01",
+            "price": 246.72,
+            "authors": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 59,
+        "fields": {
+            "name": "chard suede repair",
+            "publisher": 1,
+            "publish_date": "2019-01-30",
+            "price": 321.0,
+            "authors": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 60,
+        "fields": {
+            "name": "temper thing truck",
+            "publisher": 4,
+            "publish_date": "2014-07-16",
+            "price": 439.27,
+            "authors": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 61,
+        "fields": {
+            "name": "passbook viscose armadillo",
+            "publisher": 1,
+            "publish_date": "2015-08-25",
+            "price": 211.88,
+            "authors": [
+                10,
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 62,
+        "fields": {
+            "name": "fiction pear latex",
+            "publisher": 5,
+            "publish_date": "2012-12-24",
+            "price": 139.16,
+            "authors": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 63,
+        "fields": {
+            "name": "snowstorm look hyacinth",
+            "publisher": 1,
+            "publish_date": "2016-06-08",
+            "price": 498.07,
+            "authors": [
+                2,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 64,
+        "fields": {
+            "name": "rectangle orange porter",
+            "publisher": 3,
+            "publish_date": "2015-05-28",
+            "price": 206.2,
+            "authors": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 65,
+        "fields": {
+            "name": "CD physician freezer",
+            "publisher": 5,
+            "publish_date": "2016-07-30",
+            "price": 273.86,
+            "authors": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 66,
+        "fields": {
+            "name": "cowbell crook loan",
+            "publisher": 3,
+            "publish_date": "2020-12-13",
+            "price": 432.22,
+            "authors": [
+                1,
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 67,
+        "fields": {
+            "name": "CD chocolate numeric",
+            "publisher": 4,
+            "publish_date": "2020-09-17",
+            "price": 311.3,
+            "authors": [
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 68,
+        "fields": {
+            "name": "cello church cardigan",
+            "publisher": 5,
+            "publish_date": "2012-04-22",
+            "price": 99.54,
+            "authors": [
+                1,
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 69,
+        "fields": {
+            "name": "vinyl bomber plane",
+            "publisher": 2,
+            "publish_date": "2021-11-12",
+            "price": 340.48,
+            "authors": [
+                4,
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 70,
+        "fields": {
+            "name": "owner bait blouse",
+            "publisher": 1,
+            "publish_date": "2013-12-01",
+            "price": 154.13,
+            "authors": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 71,
+        "fields": {
+            "name": "hovercraft egg reaction",
+            "publisher": 1,
+            "publish_date": "2017-07-22",
+            "price": 159.7,
+            "authors": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 72,
+        "fields": {
+            "name": "argument slave treatment",
+            "publisher": 1,
+            "publish_date": "2021-08-23",
+            "price": 460.85,
+            "authors": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 73,
+        "fields": {
+            "name": "pair temper mouth",
+            "publisher": 5,
+            "publish_date": "2016-10-14",
+            "price": 493.61,
+            "authors": [
+                8,
+                9,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 74,
+        "fields": {
+            "name": "plow liver panty",
+            "publisher": 1,
+            "publish_date": "2016-02-04",
+            "price": 419.19,
+            "authors": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 75,
+        "fields": {
+            "name": "lyre cello geranium",
+            "publisher": 4,
+            "publish_date": "2014-01-25",
+            "price": 360.83,
+            "authors": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 76,
+        "fields": {
+            "name": "chive sweatshop laugh",
+            "publisher": 5,
+            "publish_date": "2022-03-04",
+            "price": 378.57,
+            "authors": [
+                9,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 77,
+        "fields": {
+            "name": "loss development era",
+            "publisher": 3,
+            "publish_date": "2018-04-13",
+            "price": 40.21,
+            "authors": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 78,
+        "fields": {
+            "name": "port house drake",
+            "publisher": 3,
+            "publish_date": "2017-02-13",
+            "price": 472.97,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 79,
+        "fields": {
+            "name": "clerk noodle stretch",
+            "publisher": 5,
+            "publish_date": "2018-02-25",
+            "price": 173.85,
+            "authors": [
+                3,
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 80,
+        "fields": {
+            "name": "property click flower",
+            "publisher": 2,
+            "publish_date": "2013-01-31",
+            "price": 229.5,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 81,
+        "fields": {
+            "name": "bomb taste ceramic",
+            "publisher": 5,
+            "publish_date": "2016-07-06",
+            "price": 111.63,
+            "authors": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 82,
+        "fields": {
+            "name": "plywood tent school",
+            "publisher": 2,
+            "publish_date": "2021-07-25",
+            "price": 77.8,
+            "authors": [
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 83,
+        "fields": {
+            "name": "dance fiber cause",
+            "publisher": 1,
+            "publish_date": "2021-05-11",
+            "price": 418.17,
+            "authors": [
+                8,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 84,
+        "fields": {
+            "name": "child bench chain",
+            "publisher": 5,
+            "publish_date": "2019-07-08",
+            "price": 352.67,
+            "authors": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 85,
+        "fields": {
+            "name": "tights step-aunt number",
+            "publisher": 3,
+            "publish_date": "2022-01-24",
+            "price": 12.01,
+            "authors": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 86,
+        "fields": {
+            "name": "ex-husband xylophone dash",
+            "publisher": 1,
+            "publish_date": "2015-07-23",
+            "price": 102.32,
+            "authors": [
+                8,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 87,
+        "fields": {
+            "name": "form Japanese chord",
+            "publisher": 4,
+            "publish_date": "2014-07-27",
+            "price": 408.01,
+            "authors": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 88,
+        "fields": {
+            "name": "beast sociology Kenya",
+            "publisher": 4,
+            "publish_date": "2020-12-16",
+            "price": 99.95,
+            "authors": [
+                8,
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 89,
+        "fields": {
+            "name": "governor check wedge",
+            "publisher": 3,
+            "publish_date": "2015-07-13",
+            "price": 310.84,
+            "authors": [
+                8,
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 90,
+        "fields": {
+            "name": "size arch mimosa",
+            "publisher": 4,
+            "publish_date": "2020-02-02",
+            "price": 314.89,
+            "authors": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 91,
+        "fields": {
+            "name": "texture bestseller valley",
+            "publisher": 5,
+            "publish_date": "2018-04-27",
+            "price": 340.72,
+            "authors": [
+                9,
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 92,
+        "fields": {
+            "name": "marble Sphynx margin",
+            "publisher": 3,
+            "publish_date": "2018-04-04",
+            "price": 88.24,
+            "authors": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 93,
+        "fields": {
+            "name": "shelf wire stove",
+            "publisher": 1,
+            "publish_date": "2020-08-09",
+            "price": 141.14,
+            "authors": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 94,
+        "fields": {
+            "name": "delivery green zone",
+            "publisher": 3,
+            "publish_date": "2016-01-08",
+            "price": 343.42,
+            "authors": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 95,
+        "fields": {
+            "name": "Greek flame dibble",
+            "publisher": 2,
+            "publish_date": "2019-07-26",
+            "price": 135.98,
+            "authors": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 96,
+        "fields": {
+            "name": "iris guarantee pentagon",
+            "publisher": 3,
+            "publish_date": "2018-06-28",
+            "price": 394.99,
+            "authors": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 97,
+        "fields": {
+            "name": "alibi lute pentagon",
+            "publisher": 2,
+            "publish_date": "2020-06-21",
+            "price": 70.14,
+            "authors": [
+                2,
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 98,
+        "fields": {
+            "name": "men alarm drizzle",
+            "publisher": 1,
+            "publish_date": "2012-04-18",
+            "price": 448.92,
+            "authors": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 99,
+        "fields": {
+            "name": "downtown rule stop",
+            "publisher": 4,
+            "publish_date": "2021-02-11",
+            "price": 271.28,
+            "authors": [
+                8,
+                9,
+                6
+            ]
+        }
+    }
+]

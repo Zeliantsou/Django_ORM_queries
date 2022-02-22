@@ -1,0 +1,37 @@
+[
+    {
+        "model": "book.publisher",
+        "pk": 1,
+        "fields": {
+            "name": "Star Vision"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 2,
+        "fields": {
+            "name": "Net Electronics People"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 3,
+        "fields": {
+            "name": "Frontier Building"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 4,
+        "fields": {
+            "name": "Vision Electronic Graphics"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 5,
+        "fields": {
+            "name": "Electronics Data"
+        }
+    }
+]

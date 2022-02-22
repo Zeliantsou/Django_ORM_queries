@@ -1,0 +1,37 @@
+[
+    {
+        "model": "book.publisher",
+        "pk": 1,
+        "fields": {
+            "name": "Innovation Future Pacific"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 2,
+        "fields": {
+            "name": "Resource Construction"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 3,
+        "fields": {
+            "name": "South Future Electronic"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 4,
+        "fields": {
+            "name": "Technology Advanced"
+        }
+    },
+    {
+        "model": "book.publisher",
+        "pk": 5,
+        "fields": {
+            "name": "Internet Pacific Network"
+        }
+    }
+]

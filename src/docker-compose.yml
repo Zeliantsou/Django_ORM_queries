@@ -10,6 +10,8 @@ services:
       - POSTGRES_DB=${DJANGO_DATABASE_NAME}
       - POSTGRES_USER=${DJANGO_DATABASE_USER}
       - POSTGRES_PASSWORD=${DJANGO_DATABASE_PASSWORD}
+    ports:
+      - "5432:5432"
 
   web:
     build: .

@@ -1,0 +1,82 @@
+[
+    {
+        "model": "book.author",
+        "pk": 1,
+        "fields": {
+            "name": "Oaks",
+            "birth_day": "1600-12-26"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 2,
+        "fields": {
+            "name": "Holly",
+            "birth_day": "1572-03-10"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 3,
+        "fields": {
+            "name": "Pickering",
+            "birth_day": "1549-05-19"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 4,
+        "fields": {
+            "name": "Hopper",
+            "birth_day": "1939-03-09"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 5,
+        "fields": {
+            "name": "Alba",
+            "birth_day": "1818-12-24"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 6,
+        "fields": {
+            "name": "Toney",
+            "birth_day": "1711-11-02"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 7,
+        "fields": {
+            "name": "Hoag",
+            "birth_day": "1569-03-15"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 8,
+        "fields": {
+            "name": "Mangum",
+            "birth_day": "1628-11-22"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 9,
+        "fields": {
+            "name": "Glenn",
+            "birth_day": "1744-02-16"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 10,
+        "fields": {
+            "name": "Creel",
+            "birth_day": "1594-12-30"
+        }
+    }
+]
