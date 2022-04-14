@@ -1,0 +1,82 @@
+[
+    {
+        "model": "book.author",
+        "pk": 1,
+        "fields": {
+            "name": "Fox",
+            "birth_day": "1563-05-02"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 2,
+        "fields": {
+            "name": "Reilly",
+            "birth_day": "1804-09-07"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 3,
+        "fields": {
+            "name": "Peachey",
+            "birth_day": "2005-10-23"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 4,
+        "fields": {
+            "name": "Fraser",
+            "birth_day": "1646-09-17"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 5,
+        "fields": {
+            "name": "Eastman",
+            "birth_day": "1658-03-23"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 6,
+        "fields": {
+            "name": "Yates",
+            "birth_day": "1667-02-15"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 7,
+        "fields": {
+            "name": "Corcoran",
+            "birth_day": "1941-06-15"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 8,
+        "fields": {
+            "name": "Rubin",
+            "birth_day": "1816-10-06"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 9,
+        "fields": {
+            "name": "Oconnor",
+            "birth_day": "1853-05-12"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 10,
+        "fields": {
+            "name": "Duarte",
+            "birth_day": "1756-03-16"
+        }
+    }
+]

@@ -1,13 +1,21 @@
+import os
+from distutils.util import strtobool
+
+from dotenv import load_dotenv
+
 from pathlib import Path
+
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
-SECRET_KEY = 'django-insecure-!m7(+tz77q7s3l)^66c=1&%5hz^uvc4q9xj&eh$q%pe-lpxs63'
+API_PREFIX = os.environ.get('API_PREFIX')
 
-DEBUG = True
+DEBUG = bool(strtobool(os.environ.get('DEBUG')))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(', ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -54,8 +62,12 @@ WSGI_APPLICATION = 'proj.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('DJANGO_DATABASE_NAME'),
+        'USER': os.environ.get('DJANGO_DATABASE_USER'),
+        'PASSWORD': os.environ.get('DJANGO_DATABASE_PASSWORD'),
+        'HOST': os.environ.get('DJANGO_DATABASE_HOST'),
+        'PORT': os.environ.get('DJANGO_DATABASE_PORT'),
     }
 }
 
@@ -81,8 +93,14 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.AllowAny',
+    ),
+}

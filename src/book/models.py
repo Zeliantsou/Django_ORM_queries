@@ -5,9 +5,15 @@ class Author(models.Model):
     name = models.CharField(max_length=100)
     birth_day = models.DateTimeField()
 
+    def __str__(self):
+        return self.name
+
 
 class Publisher(models.Model):
     name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
 
 
 class Book(models.Model):
@@ -22,7 +28,13 @@ class Book(models.Model):
     publish_date = models.DateTimeField()
     price = models.FloatField()
 
+    def __str__(self):
+        return self.name
+
 
 class Sales(models.Model):
     date = models.DateTimeField()
     total_sold_usd = models.FloatField()
+
+    def __str__(self):
+        return str(self.id) + str(self.date)
