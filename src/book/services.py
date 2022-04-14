@@ -1,7 +1,8 @@
 from typing import Dict, List
 import datetime
+from random import choice
 
-from django.db.models import Q, Count, Min, Max, Sum
+from django.db.models import F, Q, Count, Min, Max, Sum
 from django.db.models.query import QuerySet
 
 from book.models import Author, Publisher, Book, Sales
@@ -9,13 +10,17 @@ from initial_data.initial_test_data import create_books_data
 
 
 def get_authors_whose_book_name_not_exist_symbol_A() -> QuerySet:
-    return Author.objects.filter(
-        ~Q(books__name__contains='A')).values('name')
+    exclude_way = Author.objects.exclude(books__name__contains='A').values('name')
+    filter_way = Author.objects.filter(~Q(books__name__contains='A')).values('name')
+    return choice((exclude_way, filter_way))
 
 
 def get_count_books_each_author() -> QuerySet:
-    return Author.objects.annotate(
-        count_books=Count('books')).values('name', 'count_books')
+    values_first = Author.objects.values('name').annotate(
+        count_books=Count('books'))  # makes order by author's name
+    annotate_first = Author.objects.annotate(count_books=Count(
+        'books')).values('name', 'count_books')  # maker order by author's id
+    return choice((values_first, annotate_first))
 
 
 def get_authors_with_count_books_more_five() -> QuerySet:
@@ -25,8 +30,11 @@ def get_authors_with_count_books_more_five() -> QuerySet:
 
 
 def get_author_publisher_without_ids() -> Dict:
-    return Author.objects.prefetch_related(
-        'books__name').all().values('name', 'books__name')
+    authors_with_books = {}
+    for author in Author.objects.prefetch_related('books'):
+        books = [book.name for book in author.books.all()]
+        authors_with_books[author.name] = books
+    return authors_with_books
 
 
 def get_birth_year_oldest_author() -> str:
@@ -36,10 +44,7 @@ def get_birth_year_oldest_author() -> str:
 
 
 def get_authors_by_raw_sql() -> List:
-    authors = []
-    for author in Author.objects.raw("SELECT * FROM book_author"):
-        authors.append(author.name)
-    return authors
+    return [author.name for author in Author.objects.raw("SELECT id, name FROM book_author")]
 
 
 def get_birth_year_in_16_or_18_century() -> QuerySet:
@@ -72,17 +77,16 @@ def get_latest_published_book_by_two_ways() -> Dict:
 
 def get_one_book_for_each_year() -> QuerySet:
     return Book.objects.all().distinct(
-        'publish_date').values('name', 'publish_date')
+        'publish_date__year').values('name', 'publish_date')
 
 
 def get_book_with_publishers_without_other_fields() -> QuerySet:
     return Book.objects.select_related(
-        'publisher').all().values('name', 'publisher__name')
+        'publisher').values('name', 'publisher__name')
 
 
 def service_check_if_book_id_eq_100_exists() -> str:
-    book_id_100 = Book.objects.filter(id=100).exists()
-    if book_id_100:
+    if Book.objects.filter(id=100).exists():
         return f"book with id=100' exists in the system"
     else:
         return "book with id=100 does not exist in the system"
@@ -90,16 +94,18 @@ def service_check_if_book_id_eq_100_exists() -> str:
 
 def service_create_book_if_not_exist_name() -> str:
     book, created = Book.objects.get_or_create(
-        name='Эйафьядлаёкюдель', defaults={
+        name='Эйафьядлаёкюдель',
+        defaults={
             'publisher': Publisher.objects.last(),
             'publish_date': datetime.datetime.now(),
             'price': 100
-        })
+        }
+    )
     if created:
         return "book with name 'Эйафьядлаёкюдель' was created"
     else:
-        return "book with name 'Эйафьядлаёкюдель' \
-                already exists in the system"
+        return ("book with name 'Эйафьядлаёкюдель'"
+                "already exists in the system")
 
 
 def generate_books_data() -> List:
